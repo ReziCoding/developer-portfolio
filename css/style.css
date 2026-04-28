@@ -191,3 +191,14 @@ footer {
     color: #94a3b8;
     border-top: 1px solid #1f2937;
 }
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
