@@ -214,3 +214,24 @@ footer {
 .project-link:hover {
     text-decoration: underline;
 }
+
+.project-thumbnail {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    border: 1px solid #374151;
+}
+
+.project-card {
+    background-color: rgba(31, 41, 55, 0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #374151;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #6b7280;
+}
