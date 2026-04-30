@@ -202,3 +202,15 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
